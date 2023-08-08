@@ -64,9 +64,9 @@ fun main(args: Array<String>) {
 //        var i = 1
 //        while (i <= 1) {
 //            print("*")
-//            1++
+//            i++
 //        }
-//         1++
+//         i++
 //        println()
 //
 //    }
