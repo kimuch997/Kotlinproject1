@@ -11,4 +11,19 @@ fun main(args: Array<String>) {
     var first_phone = Phone("Iphone","android","type c")
     var second_phone = Phone("Samsung","s23","Type c")
     second_phone.call("090034583457")
+    first_phone.hungup()
+
+    var first_user = User("Anthony",2022,20400088256)
+
+    var userOne = User1("Kinuthia","","")
+    userOne.register()
+
+    var teacherOne= Teacher("Erick","123@gmail.com","ythughgh")
+    teacherOne.register()
+
+    println(userOne.name)
+
+    userOne.setidNumber("41993218")
+    println(userOne.getidNumber())
 }
+

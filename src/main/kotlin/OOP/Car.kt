@@ -1,5 +1,6 @@
 package OOP
 
+//abstratc key word you cant get an object out of that class
 class Car {
     var name:String
     var model:String
